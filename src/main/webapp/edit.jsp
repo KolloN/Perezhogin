@@ -38,7 +38,6 @@
     <input type="submit" value="Click AFTER edit">
 </form>
 <%
-
     }
         rs.close();
         stmt.close();
@@ -48,10 +47,6 @@
     {
         e.printStackTrace();
     }
-
-
-
-
 %>
 </body>
 </html>

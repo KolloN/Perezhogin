@@ -3,6 +3,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <body>
+<h1>В общем, вот видео как это всё работает: https://yadi.sk/d/b9Of_B2b3NJmuW</h1>
+<h1>Извините за такой г***о-код. У меня у самого глаза режет, но что поделать.</h1>
 <h2>Весь функционал сайта:</h2>
 <form action="add.jsp">
     <input type="submit" value="Добавить запись" />
@@ -54,10 +56,6 @@
     {
         e.printStackTrace();
     }
-
-
-
-
 %>
 </body>
 </html>

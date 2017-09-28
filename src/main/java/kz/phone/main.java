@@ -15,8 +15,6 @@ public class main extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        //String s = req.getParameter("name");
-        //pw.print("asdasda==="+ s);
         String type = req.getParameter("typeOf");
         PrintWriter pw = resp.getWriter();
         if (type.equals("adding")) {
